@@ -1,0 +1,104 @@
+
+
+.exp{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(105, 101, 101);
+    color: white;
+    height: 400px;
+    padding: 6px;
+
+}
+
+
+.cap{
+    padding: 150px;
+
+
+}
+
+.expert{
+    padding: 50px;
+    margin-right: 120px;
+
+  
+}
+
+.expert button{
+    height: 50px;
+    width: 150px;
+    margin: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(33, 33, 92);
+    color: white;
+    margin-top: 20px;
+
+}
+#skillsDiv p{
+    margin-left: 80px;
+    /* border: 1px solid blue; */
+    width: 400px;
+}
+
+@media(max-width: 800px){
+    .exp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgb(105, 101, 101);;
+        color: white;
+        height: 1200px;
+        /* width: 100%; */
+        margin-top: -250px;
+        /* border: 5px solid lawngreen; */
+    }
+
+    .cap {
+       margin-top: -30px;
+       margin-bottom: -450px;
+       text-align: center;
+       padding: 70px;
+       /* border: 5px green; */
+
+   }
+
+   .expert{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   }
+
+
+   #skillsDiv p{
+    text-align: center;
+    font-size: 14px;
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-left: 0px;
+
+
+   
+}
+.expert button{
+    height: 50px;
+    width: 100px;
+    margin: 0px;
+    margin-left: 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(33, 33, 92);
+    color: white;
+    
+}
+
+   
+
+
+}

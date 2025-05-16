@@ -1,0 +1,29 @@
+
+
+.foot{
+    text-align: center;
+    background-color: rgb(119, 110, 110);
+    height: 100px;
+    border: 1px solid;
+    color: white;
+
+    /* border: 10px solid violet; */
+
+}
+.foot h4{
+    margin-top: 35px;
+}
+
+@media(max-width: 800px){
+    .foot{
+        text-align: center;
+        background-color: rgb(105, 101, 101);
+        height: 100px;
+        margin-top: -5px;
+        /* border: 10px solid violet; */
+    }
+    .foot h4{
+        margin-top: 35px;
+    }
+
+}
