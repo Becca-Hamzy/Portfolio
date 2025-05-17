@@ -1,32 +1,26 @@
 .container{
-    /* border: 10px solid rgb(199, 49, 49); */
-    height: 50px;
+    height: 40px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* align-content; */
-    padding: 20px;
+    padding: 30px;
     background-color: rgb(105, 101, 101);
     color: white;
     box-shadow: rgba(0, 0, 0, 0.493) 0px 25px 20px -20px;        border: none;
     margin-bottom: 20px;
-    /* position: relative ; */
     position: fixed;
+    top: 0px;
 }
 
 .name{
     margin-left: 40px;
-
-
 
 }
 .nav{
   display: flex;
   gap: 30px;
   margin-right: 40px;
-
-
 
 }
 .nav a{
@@ -52,10 +46,22 @@
    }
 
    .container{
-     width: 100%;
-     padding: 0px;
-     box-shadow: rgba(0, 0, 0, 0.493) 0px 25px 20px -20px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    background-color: rgb(105, 101, 101);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.493) 0px 25px 20px -20px;        border: none;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 1px;
+
+
    }
+
 
    .name{
     font-size: 14px;
