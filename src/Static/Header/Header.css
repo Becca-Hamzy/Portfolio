@@ -36,7 +36,7 @@
 @media(max-width: 800px){
    .sideNav{
      display: block;
-     /* color: blue; */
+     margin-right: 30px;
 
    }
 
@@ -49,9 +49,9 @@
     height: 40px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    padding: 30px 15px;
     background-color: rgb(105, 101, 101);
     color: white;
     box-shadow: rgba(0, 0, 0, 0.493) 0px 25px 20px -20px;        border: none;
